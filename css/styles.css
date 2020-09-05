@@ -14,9 +14,10 @@ h1,h2,h3, .skills-list {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 48px;
   line-height: 130%;
-  margin: 40px;
+  padding: 40px 0px 16px 0px;
+  margin: 0px;
 }
 
 h2 {
@@ -27,11 +28,13 @@ h2 {
 
 h3 {
   font-size: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 12px;
 }
 
 p {
   line-height: 150%;
+  padding: 16px 0px;
+  margin: 0px;
 }
 
 figcaption {
@@ -140,6 +143,10 @@ header ul li {
   background-color: #99be8f;
 }
 
+.beige {
+  background-color: #dbd5cd;
+}
+
 .project .button {
   margin-top: 10px;
 }
@@ -148,7 +155,10 @@ header ul li {
 footer {
   text-align: center;
   margin: 0px;
-  padding: 100px 12vw;
+  padding: 80px 12vw;
+  background-image: url(../img/bgfooter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer h2 {
@@ -177,11 +187,6 @@ footer h3 {
     top: 0;
     right: 16px;
   }
-  footer {
-  background-image: url(../img/bgfooter.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -189,6 +194,12 @@ footer h3 {
     font-size: 60px;
     margin: 16px 0px 24px 0px;
   }
+
+  h1 {
+    font-size: 36px;
+    padding: 40px 0px 16px 0px;
+  }
+
   header ul li {
     font-size: 18px;
   }
